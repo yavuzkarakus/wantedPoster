@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&family=Ultra&display=swap");
+
+:root {
+  --gap-size: 8px;
+  --btn-color: #dcc398;
+  --font-color: #291200;
+  --fs-small: 1rem;
+  --fs-medium: 1rem;
+  --fs-large: 1rem;
+  --fs-xlarge: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-size);
+  align-items: center;
+  background-image: url(./assets/wood.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--font-color);
+}
+
+.poster {
+  width: 432px;
+  height: 558px;
+  max-width: 90%;
+  background-image: url(./assets/parchment.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  box-shadow: 3px 6px 12px 6px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+h1 {
+  font-family: "Ewert", serif;
+  font-size: 2.5rem;
+}
+
+.subheading,
+.name,
+.description,
+h2,
+#price {
+  font-family: "Ultra", serif;
+}
+
+.subheading,
+.name,
+h2,
+#price {
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 1.25rem;
+}
+
+#mugshot {
+  width: 262px;
+  border: var(--font-color) solid 2px;
+  filter: sepia(0.55);
+  margin: 6px 0;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+#price {
+  font-size: 2.75rem;
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  padding: 0.75rem 2rem;
+  font-family: "Ewert", serif;
+  font-size: 1.75rem;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  color: var(--font-color);
+  transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--font-color);
+  color: var(--btn-color);
+  text-decoration: line-through;
+}
+
+.bullet-hole {
+  position: absolute;
+  width: 1.5rem;
+}
