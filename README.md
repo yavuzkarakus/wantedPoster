@@ -8,7 +8,7 @@ Hello everyone! 👋
 
 ### 📹 Video
 
-![Wanted Poster Assignment Video](./screenshot/wanted-poster.webm)
+[wanted-poster.webm](https://github.com/yavuzkarakus/wantedPoster/assets/126947963/6e375606-e953-4bfb-8935-c9bbe8a02919)
 
 💯 I'm definitely a little bit faster than before, and I'm going to complete more challenges to improve as much as I can.
 
